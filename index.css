@@ -1,0 +1,81 @@
+body{
+    overflow: hidden;
+}
+.logosection{
+    height: 100vh;
+    perspective: 1000px; 
+}
+
+.welcome{
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    background: #dfdfdf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in 1s;
+}
+
+
+.aquadiv{
+    background-color: #5297fe;
+    display: flex;
+    align-items: center;
+    
+}
+
+.caelidiv{
+    background-color: #d9ffbb;
+    display: flex;
+    align-items: center;
+    
+}
+
+.ignisdiv{
+    background-color: #d64721;
+    display: flex;
+    align-items: center;
+    
+}
+
+.terradiv{
+    background-color: #bb703f;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo-div{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.img-logo{
+    transform-style: preserve-3d;
+    width: 220px;
+    border-radius: 15px;
+    
+}
+
+
+
+.row {
+    height: 100vh;
+}
+
+
+
+@media (max-width: 992px) { 
+    .img-logo{
+        
+        width: 180px;
+        
+        
+    }
+ }
+
+

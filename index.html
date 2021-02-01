@@ -6,11 +6,47 @@
         <title>Fusion Park</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/index.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>hola</h1>
-        <h2>hey</h2>
-        <script src="/index.js" async defer></script>
+        <audio id="aqua">
+            <source src="./audio/Aqua.m4a"></source>
+        </audio>
+        <audio id="caeli">
+            <source src="./audio/caeli.mp3"></source>
+        </audio>
+        <audio id="ignis">
+            <source src="./audio/ignis.m4a"></source>
+        </audio>
+        <audio id="terra">
+            <source src="./audio/terra.ogg"></source>
+        </audio>
+
+        <section class="welcome">
+            <h2>Buenvenido a</h2>
+            <img class="img-fluid img-logo" src="./img/logo.png" alt="Logo de Fusion Park">
+            <button onclick="start();" class="btn btn-primary" type="button">Bienvenido</button>
+        </section>
+
+        <div class="logosection container-fluid">
+            <div class="row">
+                <div class="aquadiv logo-div col-12">
+                    <img class="img-fluid img-logo" src="./img/aqua.png" alt="logo de Aqua">
+                </div>
+                <div class="caelidiv logo-div col-12">
+                    <img class="img-fluid img-logo" src="./img/caeli.png" alt="logo de Caeli">
+                </div>
+                <div class="terradiv logo-div col-12">
+                    <img class="img-fluid img-logo" src="./img/terra.png" alt="logo de Terra">
+                </div>
+                <div class="ignisdiv logo-div col-12">
+                    <img class="img-fluid img-logo" src="./img/ignis.png" alt="logo de Ignis">
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script src="index.js" async defer></script>
     </body>
 </html>
