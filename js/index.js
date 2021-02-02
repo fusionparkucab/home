@@ -1,4 +1,15 @@
 
+document.onreadystatechange = function() { 
+    if (document.readyState !== "complete") { 
+        document.querySelector("body").style.visibility = "hidden"; 
+        document.querySelector("#loader").style.visibility = "visible"; 
+    } else { 
+        document.querySelector("#loader").style.display = "none"; 
+        document.querySelector("body").style.visibility = "visible"; 
+    } 
+}; 
+
+
 const aquaimg = document.querySelector('.aquadiv .img-logo');
 const caeliimg = document.querySelector('.caelidiv .img-logo');
 const ignisimg = document.querySelector('.ignisdiv .img-logo');
