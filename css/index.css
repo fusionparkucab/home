@@ -111,6 +111,7 @@ body{
 .boton{
     background-color: transparent;
     border: 3px solid white;
+    margin-bottom: 20px;
 }
 
 
@@ -125,6 +126,10 @@ footer {
 footer p{
     font-size: 12px;
     text-align: center;
+}
+
+.inline i{
+    color: white;
 }
 
 @media (max-width: 992px) { 
