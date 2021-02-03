@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'micrograma';
+    src: url('/fonts/micro.otf');
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 body{
     overflow: hidden;
+    font-family: 'micrograma';
 }
 .logosection{
     height: 100vh;
@@ -19,30 +27,37 @@ body{
     transition: ease-in 1s;
 }
 
+.welcome p{
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+
 
 .aquadiv{
-    background-color: #5297fe;
+    background-color:#0098ff;
     display: flex;
     align-items: center;
     
 }
 
 .caelidiv{
-    background-color: #d9ffbb;
+    background-color: #d8ffcc;
     display: flex;
     align-items: center;
     
 }
 
 .ignisdiv{
-    background-color: #d64721;
+    background-color: #f91b1b;
     display: flex;
     align-items: center;
     
 }
 
 .terradiv{
-    background-color: #bb703f;
+    background-color: #d87b2a;
     display: flex;
     align-items: center;
     
@@ -93,13 +108,36 @@ body{
     margin: auto; 
 } 
 
+.boton{
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+
+footer {
+    position: absolute;
+    height: 40px;
+    width: 100vw;
+    bottom: 0;
+    z-index: 3;
+}
+
+footer p{
+    font-size: 12px;
+    text-align: center;
+}
 
 @media (max-width: 992px) { 
     .img-logo{
         
-        width: 180px;
+        width: 160px;
         
         
+    }
+
+    footer p{
+        font-size: 7px;
+        text-align: center;
     }
  }
 

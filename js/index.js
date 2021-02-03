@@ -219,15 +219,13 @@ function start() {
 
 function backgroundMove() {
     
-    setTimeout(function(){welcomeDiv.style.backgroundColor = "#b44946";}, 1000); 
-    setTimeout(function(){welcomeDiv.style.backgroundColor = '#eb9d5b';}, 2000);
-    setTimeout(function(){welcomeDiv.style.backgroundColor = '#bf2f67';}, 3000); 
+    setTimeout(function(){welcomeDiv.style.backgroundColor = "#0098ff";}, 1000); 
+    setTimeout(function(){welcomeDiv.style.backgroundColor = '#d8ffcc';}, 2000);
+    setTimeout(function(){welcomeDiv.style.backgroundColor = '#f91b1b';}, 3000); 
     setTimeout(function(){
-        welcomeDiv.style.backgroundColor = '#3b4d9f';
+        welcomeDiv.style.backgroundColor = '#d87b2a';
         backgroundMove()
     }, 4000);  
-    
-        
 }
 
 backgroundMove();
